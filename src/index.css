@@ -1,0 +1,22 @@
+.home-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://source.unsplash.com/1600x900/?running") center/cover no-repeat;
+}
+
+.banner {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
