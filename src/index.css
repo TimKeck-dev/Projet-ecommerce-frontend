@@ -20,3 +20,75 @@
   font-weight: bold;
   text-align: center;
 }
+
+.product-list {
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.card-price {
+  font-size: 1.2rem;
+  margin: 0 10px;
+  color: green;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  margin: 10px;
+  color: #555;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+.navbar .navbar-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .btn-link {
+  color: #333;
+}
+
+.banner {
+  background-color: #0d6efd;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}

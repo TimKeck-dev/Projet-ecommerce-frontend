@@ -1,10 +1,13 @@
 import React from "react";
-import Home from "./Components/Home";
+import Navbar from "./Components/Navbar";
+import ProductList from "./Components/ProductList";
 
 function App() {
   return (
-    <div>
-      <Home />
+    <div className="container">
+      <Navbar />
+      <h1 className="title text-center my-4">Nos Produits</h1>
+      <ProductList />
     </div>
   );
 }
